@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model Models.Framework.Category
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <div class="container-fluid ">
+        <div class="form-horizontal">
+            <h4>Create Category</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.NAME, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(model => model.NAME, new { @class = "form-control" } )
+                    @Html.ValidationMessageFor(model => model.NAME, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.ALIAS, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(model => model.ALIAS, new { @class = "form-control" } )
+                    @Html.ValidationMessageFor(model => model.ALIAS, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.PARENT_ID, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(model => model.PARENT_ID,  new { @class = "form-control" } )
+                    @Html.ValidationMessageFor(model => model.PARENT_ID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.ORDER, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(model => model.ORDER,  new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ORDER, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.STATUS, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownListFor(model => model.STATUS, new List<SelectListItem>
+               {
+                   new SelectListItem()
+                   {
+                       Selected = true,
+                       Text = "Kích hoạt",
+                       Value = "true"
+                   },
+
+                   new SelectListItem()
+                   {
+                       Selected = false,
+                       Text = "Khóa",
+                       Value = "false"
+                   }
+               }, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.STATUS, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.DELETED, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownListFor(model => model.DELETED, new List<SelectListItem>
+                    {
+                        new SelectListItem()
+                        {
+                            Selected = true,
+                            Text = "True",
+                            Value = "true"
+                        },
+                        new SelectListItem()
+                        {
+                            Selected = false,
+                            Text= "False",
+                            Value = "false"
+                        }
+                    }, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.DELETED, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="d-flex">
+                <div>
+                    <input type="submit" value="Create" class="btn btn-primary " />
+                </div>
+                <div style="margin-left: 12px">
+                    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary" })
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+}
+

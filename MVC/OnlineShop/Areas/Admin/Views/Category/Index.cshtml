@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Models.Framework.Category>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Category List</h1>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            @Html.ActionLink("New Category", "Create", null, new {@class = "btn btn-primary"})
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Category_Id</th>
+                            <th>Name</th>
+                            <th>Alias</th>
+                            <th>Parent_IdD</th>
+                            <th>Created_Date</th>
+                            <th>Updated_Date</th>
+                            <th>Deleted_Date</th>
+                            <th>Order</th>
+                            <th>Status</th>
+                            <th>Deleted</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @item.CATEGORY_ID
+                                </td>
+                                <td>
+                                    @item.NAME
+                                </td>
+                                <td>
+                                    @item.ALIAS
+                                </td>
+                                <td>
+                                    @item.PARENT_ID
+                                </td>
+                                <td>
+                                    @(item.CREATED_DATE.HasValue? item.CREATED_DATE.Value.ToString("dd/MM/yyyy"): "")
+                                </td>
+                                <td>
+                                    @(item.UPDATED_DATE.HasValue? item.UPDATED_DATE.Value.ToString("dd/MM/yyyy"): "")
+                                </td>
+                                <td>
+                                    @(item.DELETED_DATE.HasValue? item.DELETED_DATE.Value.ToString("dd/MM/yyyy"): "")  
+                                </td>
+                                <td>
+                                    @item.ORDER.GetValueOrDefault()
+                                </td>
+                                <td>
+                                    @(item.STATUS.GetValueOrDefault() ? "Active" : "Blocked")
+                                </td>
+                                <td>
+                                    @item.DELETED
+                                </td>
+                                <td>
+                                    @Html.ActionLink("Edit", null, new { @class = "link-primary" })
+                                    @Html.ActionLink("Del", null, new { @class = "link-primary" })
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
