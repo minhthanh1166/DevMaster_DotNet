@@ -1,0 +1,8 @@
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\SoNguyenTo\bin\Debug\SoNguyenTo.exe.config
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\SoNguyenTo\bin\Debug\SoNguyenTo.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\SoNguyenTo\bin\Debug\SoNguyenTo.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\SoNguyenTo\obj\Debug\SoNguyenTo.csproj.AssemblyReference.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\SoNguyenTo\obj\Debug\SoNguyenTo.csproj.SuggestedBindingRedirects.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\SoNguyenTo\obj\Debug\SoNguyenTo.csproj.CoreCompileInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\SoNguyenTo\obj\Debug\SoNguyenTo.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\SoNguyenTo\obj\Debug\SoNguyenTo.pdb

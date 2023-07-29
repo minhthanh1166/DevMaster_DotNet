@@ -1,0 +1,5 @@
+﻿OOP - Có 4 tính chất
+1. Kế thừa : inheristance
+2. Trừu tượng : Abstraction 
+3. Đa hình : Polymorphism
+4. Đóng gói : Enscapsolat

@@ -1,0 +1,8 @@
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson02\Session02_demo\bin\Debug\Session02_demo.exe.config
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson02\Session02_demo\bin\Debug\Session02_demo.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson02\Session02_demo\bin\Debug\Session02_demo.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson02\Session02_demo\obj\Debug\Session02_demo.csproj.AssemblyReference.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson02\Session02_demo\obj\Debug\Session02_demo.csproj.SuggestedBindingRedirects.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson02\Session02_demo\obj\Debug\Session02_demo.csproj.CoreCompileInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson02\Session02_demo\obj\Debug\Session02_demo.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson02\Session02_demo\obj\Debug\Session02_demo.pdb

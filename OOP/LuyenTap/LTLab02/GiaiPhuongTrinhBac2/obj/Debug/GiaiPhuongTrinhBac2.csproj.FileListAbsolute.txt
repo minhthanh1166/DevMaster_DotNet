@@ -1,0 +1,8 @@
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\GiaiPhuongTrinhBac2\bin\Debug\GiaiPhuongTrinhBac2.exe.config
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\GiaiPhuongTrinhBac2\bin\Debug\GiaiPhuongTrinhBac2.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\GiaiPhuongTrinhBac2\bin\Debug\GiaiPhuongTrinhBac2.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\GiaiPhuongTrinhBac2\obj\Debug\GiaiPhuongTrinhBac2.csproj.AssemblyReference.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\GiaiPhuongTrinhBac2\obj\Debug\GiaiPhuongTrinhBac2.csproj.SuggestedBindingRedirects.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\GiaiPhuongTrinhBac2\obj\Debug\GiaiPhuongTrinhBac2.csproj.CoreCompileInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\GiaiPhuongTrinhBac2\obj\Debug\GiaiPhuongTrinhBac2.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\GiaiPhuongTrinhBac2\obj\Debug\GiaiPhuongTrinhBac2.pdb
