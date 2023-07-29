@@ -24,7 +24,7 @@ namespace Lab3_4
             Console.WriteLine("Sau khi hoán vị dang really a = {0}, b = {1}", a, b);
 
             utility.AreaCircle(100, out area);
-            Console.WriteLine("Chu vi hình tròng bán kinh 100 là: {0}", area);
+            Console.WriteLine("Chu vi hình tròn bán kinh 100 là: {0}", area);
 
 
             Console.ReadKey();
