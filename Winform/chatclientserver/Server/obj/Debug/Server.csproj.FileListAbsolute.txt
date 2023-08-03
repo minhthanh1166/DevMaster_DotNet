@@ -1,0 +1,11 @@
+E:\workspace\chatclientserver\Server\bin\Debug\Server.exe.config
+E:\workspace\chatclientserver\Server\bin\Debug\Server.exe
+E:\workspace\chatclientserver\Server\bin\Debug\Server.pdb
+E:\workspace\chatclientserver\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+E:\workspace\chatclientserver\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+E:\workspace\chatclientserver\Server\obj\Debug\Server.ServerForm.resources
+E:\workspace\chatclientserver\Server\obj\Debug\Server.Properties.Resources.resources
+E:\workspace\chatclientserver\Server\obj\Debug\Server.csproj.GenerateResource.cache
+E:\workspace\chatclientserver\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+E:\workspace\chatclientserver\Server\obj\Debug\Server.exe
+E:\workspace\chatclientserver\Server\obj\Debug\Server.pdb

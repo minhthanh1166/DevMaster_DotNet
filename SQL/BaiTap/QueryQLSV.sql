@@ -158,5 +158,183 @@ nếu giá trị của field học bổng lớn hơn 500,000 và ngược lại 
 trung bình”  
 */
 
-SELECT MaSV, Phai, MaKH, 
-FROM dbo.SinhVien
+SELECT MaSV, Phai, MaKH,HocBong,  [Mức học bổng] = CASE WHEN HocBong > 500000 THEN N'Học bổng cao' 
+											            WHEN HocBong < 500000 THEN N'Học bổng trung bình' END 
+													
+FROM dbo.SinhVien 
+
+/*
+5. Cho biết điểm thi của các sinh viên, gồm các thông tin: Họ tên sinh viên, Mã  môn học, Điểm.
+Kết quả sẽ được sắp theo thứ tự Họ tên sinh viên và mã môn  học tăng dần 
+*/
+
+SELECT  [Họ Tên] = S.HoSV + ' ' + S.TenSV, MH.MaMH, KQ.Diem
+FROM dbo.SinhVien AS S
+RIGHT JOIN dbo.Ketqua AS KQ ON S.MaSV = KQ.MaSV
+LEFT JOIN dbo.MonHoc AS MH ON KQ.MaMH = MH.MaMH
+ORDER BY S.HoSV + ' ' + S.TenSV ASC , MH.MaMH ASC
+
+
+/*
+6. Danh sách sinh viên của khoa Anh văn, điều kiện lọc phải sử dụng tên khoa, gồm  các thông tin sau:
+Họ tên sinh viên, Giới tính, Tên khoa. Trong đó, Giới tính sẽ  hiển thị dạng Nam/Nữ  
+*/
+
+SELECT [Họ Tên] = HoSV + ' ' + TenSV, CASE WHEN Phai = 0 THEN 'Nam' WHEN Phai = 1 THEN N'Nữ' END, K.TenKH
+FROM dbo.SinhVien AS S
+RIGHT JOIN dbo.Khoa AS K ON S.MaKH = K.MaKH
+WHERE K.TenKH = N'Anh Văn'
+
+/*
+7. Liệt kê bảng điểm của sinh viên khoa Tin Học, gồm các thông tin:Tên khoa, Họ  tên sinh viên,
+Tên môn học, Số tiết, Điểm  
+*/
+
+SELECT K.TenKH, [Họ Tên] = SV.HoSV + ' ' + SV.TenSV, MH.TenMH, MH.Sotiet, KQ.Diem, K.TenKH
+FROM dbo.SinhVien AS SV
+RIGHT JOIN dbo.Ketqua AS KQ ON SV.MaSV = KQ.MaSV
+RIGHT JOIN dbo.MonHoc AS MH ON KQ.MaMH = MH.MaMH
+RIGHT JOIN dbo.Khoa AS K ON SV.MaKH = K.MaKH
+WHERE K.TenKH = N'Tin học'
+
+
+/*
+8. Kết quả học tập của sinh viên, gồm các thông tin: Họ tên sinh viên, Mã khoa,
+Tên môn học, Điểm thi, Loại. Trong đó, Loại sẽ là Giỏi nếu điểm thi > 8, từ 6 đến  8 thì Loại là Khá,
+nhỏ hơn 6 thì loại là Trung Bình
+*/
+
+SELECT [Họ Tên] = S.HoSV + ' ' + S.TenSV, S.MaKH, MH.TenMH, KQ.Diem,
+[Loại] = CASE WHEN KQ.Diem > 8 THEN N'Giỏi' 
+			  WHEN KQ.Diem BETWEEN 6 AND 8 THEN N'Khá'
+			  WHEN KQ.Diem < 6 THEN N'Trung bình' END 
+FROM dbo.SinhVien AS S
+RIGHT JOIN dbo.Ketqua AS KQ ON S.MaSV = KQ.MaSV
+JOIN dbo.MonHoc AS MH ON KQ.MaMH = MH.MaMH
+
+/*
+1. Cho biết trung bình điểm thi theo từng môn, gồm các thông tin: Mã môn, Tên  môn, Trung bình điểm thi  
+*/
+
+SELECT MH.MaMH, MH.TenMH, [Điểm trung bình] = AVG(KQ.Diem) 
+FROM dbo.MonHoc AS MH
+RIGHT JOIN dbo.Ketqua AS KQ ON MH.MaMH = KQ.MaMH
+GROUP BY  MH.MaMH, MH.TenMH
+
+/*
+2. Danh sách số môn thi của từng sinh viên, gồm các thông tin: Họ tên sinh viên,  Tên khoa, Tổng số môn thi 
+*/
+
+SELECT  [Họ Tên] = SV.HoSV + ' ' + SV.TenSV, K.TenKH, [Tổng số môn thi] = COUNT(KQ.MaMH)
+FROM dbo.MonHoc AS MH 
+RIGHT JOIN dbo.Ketqua AS KQ ON MH.TenMH = KQ.MaMH
+LEFT JOIN dbo.SinhVien AS SV ON KQ.MaSV = SV.MaSV
+LEFT JOIN dbo.Khoa AS K ON SV.MaKH = K.MaKH
+GROUP BY SV.HoSV + ' ' + SV.TenSV, K.TenKH
+
+
+/*
+3. Tổng điểm thi của từng sinh viên, các thông tin: Tên sinh viên, Tên khoa, Phái,  Tổng điểm thi  c
+*/
+
+SELECT SV.TenSV, K.TenKH, SV.Phai, [Tổng điểm thi] = SUM(KQ.Diem)
+FROM dbo.Ketqua AS KQ 
+LEFT JOIN dbo.SinhVien AS SV ON KQ.MaSV = SV.MaSV
+LEFT JOIN dbo.Khoa AS K ON SV.MaKH = K.MaKH
+GROUP BY SV.TenSV, K.TenKH, SV.Phai
+
+/*
+4. Cho biết tổng số sinh viên ở mỗi khoa, gồm các thông tin: Tên khoa, Tổng số sinh  viên  
+*/
+
+SELECT K.TenKH, [Tổng số sinh viên] = COUNT(SV.MaSV)
+FROM dbo.SinhVien AS SV
+RIGHT JOIN dbo.Khoa AS K ON SV.MaKH = K.MaKH
+GROUP BY K.TenKH
+
+/*
+5. Cho biết điểm cao nhất của mỗi sinh viên, gồm thông tin:Họ tên sinh viên, Điểm  
+*/
+SELECT [Họ Tên] = S.HoSV + ' ' + S.TenSV, KQ.Diem
+FROM dbo.SinhVien AS S
+LEFT JOIN dbo.Ketqua AS KQ ON S.MaSV = KQ.MaSV
+
+/*
+6.Thông tin của môn học có số tiết nhiều nhất: Tên môn học, Số tiết  
+*/
+SELECT TOP 10 TenMH, Sotiet FROM dbo.MonHoc ORDER BY Sotiet DESC
+
+SELECT TOP 3 TenMH, Sotiet FROM dbo.MonHoc ORDER BY Sotiet ASC
+
+/*
+7. Cho biết học bổng cao nhất của từng khoa, gồm Mã khoa, Tên khoa, Học bổng  cao nhất  
+*/
+SELECT K.MaKH, K.TenKH, [Học bổng] = MAX(S.HocBong)
+FROM dbo.Khoa AS K
+LEFT JOIN dbo.SinhVien AS S ON K.MaKH = S.MaKH
+GROUP BY K.MaKH, K.TenKH
+
+-- Học bổng thấp nhất 
+SELECT K.MaKH, K.TenKH, MIN(S.HocBong) AS [Học bổng thấp nhất]
+FROM dbo.Khoa AS K
+LEFT JOIN dbo.SinhVien AS S ON K.MaKH = S.MaKH
+GROUP BY K.MaKH, K.TenKH
+
+/*
+8. Cho biết điểm cao nhất của mỗi môn, gồm: Tên môn, Điểm cao nhất  
+*/
+
+SELECT TenMH, [Điểm cao nhất] = MAX(KQ.Diem)
+FROM dbo.MonHoc AS MH
+RIGHT JOIN dbo.Ketqua AS KQ ON MH.MaMH = KQ.MaMH
+GROUP BY MH.TenMH, KQ.Diem
+ORDER BY KQ.Diem DESC
+
+/*
+9. Thống kê số sinh viên học của từng môn, thông tin có: Mã môn, Tên môn, Số  sinh viên đang học  
+*/
+SELECT MH.MaMH, MH.TenMH, [Số sinh viên đang học] = COUNT(KQ.MaSV)
+FROM dbo.SinhVien AS S
+RIGHT JOIN dbo.Ketqua AS KQ ON S.MaSV = KQ.MaSV
+RIGHT JOIN dbo.MonHoc AS MH ON KQ.MaMH = MH.MaMH
+GROUP BY MH.MaMH, MH.TenMH
+
+
+/*
+10.Cho biết môn nào có điểm thi cao nhất, gồmcác thông tin: Tên môn, Số tiết, Tên  sinh viên, Điểm  
+*/
+SELECT MH.TenMH, MH.Sotiet, S.TenSV, KQ.Diem, [Môn điểm thi cao nhất] = MAX(KQ.Diem)
+FROM dbo.SinhVien AS S
+RIGHT JOIN dbo.Ketqua AS KQ ON S.MaSV = KQ.MaSV
+RIGHT JOIN dbo.MonHoc AS MH ON KQ.MaMH = MH.MaMH
+GROUP BY MH.TenMH, MH.Sotiet, S.TenSV, KQ.Diem
+ORDER BY KQ.Diem DESC
+
+/*
+11.Cho biết khoa nào có đông sinh viên nhất, gồm Mã khoa, Tên khoa, Tổng số sinh  viên  
+*/
+
+SELECT DISTINCT K.MaKH, K.TenKH, [Tổng số sinh viên] = COUNT(S.MaSV)
+FROM dbo.SinhVien AS S
+RIGHT JOIN dbo.Khoa AS K ON S.MaKH = K.MaKH
+GROUP BY K.MaKH, K.TenKH
+ORDER BY COUNT(S.MaSV) DESC
+
+/*
+12.Cho biết khoa nào có sinh viên lảnh học bổng cao nhất, gồm các thông tin sau: 
+Tên khoa, Họ tên sinh viên, Học bổng 
+*/
+SELECT K.TenKH, S.HoSV, S.TenSV, S.HocBong
+FROM dbo.SinhVien AS S
+RIGHT JOIN dbo.Khoa AS K ON S.MaKH = K.MaKH
+ORDER BY S.HocBong DESC
+
+
+/*
+13.Cho biết sinh viên của khoa Tin học có có học bổng cao nhất, gồm các thông tin:
+Mã sinh viên, Họ sinh viên, Tên sinh viên, Tên khoa, Học bổng  
+*/
+
+
+
+
