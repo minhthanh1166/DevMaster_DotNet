@@ -1,0 +1,8 @@
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson03\Lab4_6\bin\Debug\Lab4_6.exe.config
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson03\Lab4_6\bin\Debug\Lab4_6.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson03\Lab4_6\bin\Debug\Lab4_6.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson03\Lab4_6\obj\Debug\Lab4_6.csproj.AssemblyReference.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson03\Lab4_6\obj\Debug\Lab4_6.csproj.SuggestedBindingRedirects.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson03\Lab4_6\obj\Debug\Lab4_6.csproj.CoreCompileInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson03\Lab4_6\obj\Debug\Lab4_6.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson03\Lab4_6\obj\Debug\Lab4_6.pdb
