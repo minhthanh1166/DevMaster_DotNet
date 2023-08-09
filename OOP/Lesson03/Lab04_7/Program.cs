@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lab04_7
 {
@@ -10,6 +6,12 @@ namespace Lab04_7
     {
         static void Main(string[] args)
         {
+            NhanVienBanHang nv = new NhanVienBanHang();
+            nv.HienThi();
+            CongNhan cn = new CongNhan();
+            cn.HienThi();
+
+            Console.ReadLine();
         }
     }
 }

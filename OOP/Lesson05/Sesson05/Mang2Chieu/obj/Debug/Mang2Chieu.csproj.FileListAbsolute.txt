@@ -1,0 +1,8 @@
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson05\Sesson05\Mang2Chieu\bin\Debug\Mang2Chieu.exe.config
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson05\Sesson05\Mang2Chieu\bin\Debug\Mang2Chieu.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson05\Sesson05\Mang2Chieu\bin\Debug\Mang2Chieu.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson05\Sesson05\Mang2Chieu\obj\Debug\Mang2Chieu.csproj.AssemblyReference.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson05\Sesson05\Mang2Chieu\obj\Debug\Mang2Chieu.csproj.SuggestedBindingRedirects.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson05\Sesson05\Mang2Chieu\obj\Debug\Mang2Chieu.csproj.CoreCompileInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson05\Sesson05\Mang2Chieu\obj\Debug\Mang2Chieu.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson05\Sesson05\Mang2Chieu\obj\Debug\Mang2Chieu.pdb
