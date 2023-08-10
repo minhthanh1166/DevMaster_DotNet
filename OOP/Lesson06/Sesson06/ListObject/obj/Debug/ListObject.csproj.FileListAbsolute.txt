@@ -1,0 +1,8 @@
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListObject\bin\Debug\ListObject.exe.config
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListObject\bin\Debug\ListObject.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListObject\bin\Debug\ListObject.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListObject\obj\Debug\ListObject.csproj.AssemblyReference.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListObject\obj\Debug\ListObject.csproj.SuggestedBindingRedirects.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListObject\obj\Debug\ListObject.csproj.CoreCompileInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListObject\obj\Debug\ListObject.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListObject\obj\Debug\ListObject.pdb

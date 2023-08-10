@@ -1,0 +1,8 @@
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListDemo\bin\Debug\ListDemo.exe.config
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListDemo\bin\Debug\ListDemo.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListDemo\bin\Debug\ListDemo.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListDemo\obj\Debug\ListDemo.csproj.AssemblyReference.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListDemo\obj\Debug\ListDemo.csproj.SuggestedBindingRedirects.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListDemo\obj\Debug\ListDemo.csproj.CoreCompileInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListDemo\obj\Debug\ListDemo.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson06\Sesson06\ListDemo\obj\Debug\ListDemo.pdb

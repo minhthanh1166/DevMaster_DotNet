@@ -63,6 +63,7 @@ namespace BaiTapVeMang
                     }
 
 
+                    // Searching 
                     Console.Write("\nEnter a name to search for: ");
                     string searchName = Console.ReadLine();
 
