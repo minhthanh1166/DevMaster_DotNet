@@ -1,0 +1,7 @@
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Lab05\Lab05\Lab05\bin\Debug\Lab05.exe.config
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Lab05\Lab05\Lab05\bin\Debug\Lab05.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Lab05\Lab05\Lab05\bin\Debug\Lab05.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Lab05\Lab05\Lab05\obj\Debug\Lab05.csproj.AssemblyReference.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Lab05\Lab05\Lab05\obj\Debug\Lab05.csproj.CoreCompileInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Lab05\Lab05\Lab05\obj\Debug\Lab05.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Lab05\Lab05\Lab05\obj\Debug\Lab05.pdb

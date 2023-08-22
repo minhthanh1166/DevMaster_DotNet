@@ -4,18 +4,18 @@ using BulkyBook.Models;
 
 namespace BulkyBook.DataAccess.Repository
 {
-    public class CategoryRepository : Respository<Category>, ICategoryRepository
+    public class CompanyRepository : Respository<Company>, ICompanyRepository
     {
         private readonly ApplicationDbContext _db;
-        public CategoryRepository(ApplicationDbContext db) : base(db)
+        public CompanyRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
         }
 
 
-        public void Update(Category obj)
+        public void Update(Company obj)
         {
-            _db.Categorys.Update(obj);
+            _db.Companies.Update(obj);
         }
     }
 }

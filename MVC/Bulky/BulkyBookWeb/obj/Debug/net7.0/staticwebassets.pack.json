@@ -1,283 +1,287 @@
 {
   "Files": [
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BulkyBookWeb.bundle.scp.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BulkyBookWeb.bundle.scp.css",
       "PackagePath": "staticwebassets\\BulkyBookWeb.bundle.scp.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\css\\site.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\favicon.ico",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\images\\product\\3149fa8f-a5b1-4b7b-99cc-c6515f54b7b5.jpg",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\images\\product\\3149fa8f-a5b1-4b7b-99cc-c6515f54b7b5.jpg",
       "PackagePath": "staticwebassets\\images\\product\\3149fa8f-a5b1-4b7b-99cc-c6515f54b7b5.jpg"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\images\\product\\aed45948-2f1e-4a82-a8bd-481f5b3f3ad4.jpg",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\images\\product\\aed45948-2f1e-4a82-a8bd-481f5b3f3ad4.jpg",
       "PackagePath": "staticwebassets\\images\\product\\aed45948-2f1e-4a82-a8bd-481f5b3f3ad4.jpg"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\images\\product\\bd64d446-9636-4d21-b692-cc05a37a7274.jpg",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\images\\product\\bd64d446-9636-4d21-b692-cc05a37a7274.jpg",
       "PackagePath": "staticwebassets\\images\\product\\bd64d446-9636-4d21-b692-cc05a37a7274.jpg"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\images\\product\\cc0b9a45-6523-4b6a-850f-7bf9d5f0cc11.jpg",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\images\\product\\cc0b9a45-6523-4b6a-850f-7bf9d5f0cc11.jpg",
       "PackagePath": "staticwebassets\\images\\product\\cc0b9a45-6523-4b6a-850f-7bf9d5f0cc11.jpg"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\images\\product\\d65610b9-a7df-4529-99df-662c7f4ccae4.jpg",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\images\\product\\d65610b9-a7df-4529-99df-662c7f4ccae4.jpg",
       "PackagePath": "staticwebassets\\images\\product\\d65610b9-a7df-4529-99df-662c7f4ccae4.jpg"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\images\\product\\dd8f9ab4-f9fc-4fbb-8d15-6c135081de3d.jpg",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\images\\product\\dd8f9ab4-f9fc-4fbb-8d15-6c135081de3d.jpg",
       "PackagePath": "staticwebassets\\images\\product\\dd8f9ab4-f9fc-4fbb-8d15-6c135081de3d.jpg"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\images\\product\\fb70ed5c-f3de-41aa-83ce-5870f5d822cf.jpg",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\images\\product\\fb70ed5c-f3de-41aa-83ce-5870f5d822cf.jpg",
       "PackagePath": "staticwebassets\\images\\product\\fb70ed5c-f3de-41aa-83ce-5870f5d822cf.jpg"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\js\\category.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\js\\category.js",
       "PackagePath": "staticwebassets\\js\\category.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\js\\product.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\js\\company.js",
+      "PackagePath": "staticwebassets\\js\\company.js"
+    },
+    {
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\js\\site.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\OOP\\Lesson05\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Bulky\\BulkyBookWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

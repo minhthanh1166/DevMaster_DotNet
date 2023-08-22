@@ -1,0 +1,7 @@
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Lab07\Lab07\Lab7.2\bin\Debug\Lab7.2.exe.config
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Lab07\Lab07\Lab7.2\bin\Debug\Lab7.2.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Lab07\Lab07\Lab7.2\bin\Debug\Lab7.2.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Lab07\Lab07\Lab7.2\obj\Debug\Lab7.2.csproj.AssemblyReference.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Lab07\Lab07\Lab7.2\obj\Debug\Lab7.2.csproj.CoreCompileInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Lab07\Lab07\Lab7.2\obj\Debug\Lab7.2.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Lab07\Lab07\Lab7.2\obj\Debug\Lab7.2.pdb

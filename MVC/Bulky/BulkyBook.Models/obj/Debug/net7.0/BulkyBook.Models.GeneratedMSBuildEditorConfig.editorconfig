@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BulkyBook.Models
-build_property.ProjectDir = D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson05\Bulky\BulkyBook.Models\
+build_property.ProjectDir = D:\WorkSpace\C#\DevMaster_DotNet\MVC\Bulky\BulkyBook.Models\
