@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab7.2", "Lab7.2\Lab7.2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab7.3", "Lab7.3\Lab7.3.csproj", "{8D7A9FCB-F24E-472B-9EE7-181E89CB1662}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "La7.4", "La7.4\La7.4.csproj", "{668C7F86-5E14-41C8-BE65-618E3D4FB113}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab7.4", "La7.4\Lab7.4.csproj", "{668C7F86-5E14-41C8-BE65-618E3D4FB113}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

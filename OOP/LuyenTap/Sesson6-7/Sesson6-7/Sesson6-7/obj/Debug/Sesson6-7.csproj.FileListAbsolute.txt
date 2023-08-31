@@ -1,0 +1,7 @@
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Sesson6-7\Sesson6-7\Sesson6-7\bin\Debug\Sesson6-7.exe.config
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Sesson6-7\Sesson6-7\Sesson6-7\bin\Debug\Sesson6-7.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Sesson6-7\Sesson6-7\Sesson6-7\bin\Debug\Sesson6-7.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Sesson6-7\Sesson6-7\Sesson6-7\obj\Debug\Sesson6-7.csproj.AssemblyReference.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Sesson6-7\Sesson6-7\Sesson6-7\obj\Debug\Sesson6-7.csproj.CoreCompileInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Sesson6-7\Sesson6-7\Sesson6-7\obj\Debug\Sesson6-7.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\LuyenTap\Sesson6-7\Sesson6-7\Sesson6-7\obj\Debug\Sesson6-7.pdb

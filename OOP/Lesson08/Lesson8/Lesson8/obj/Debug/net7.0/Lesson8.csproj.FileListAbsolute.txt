@@ -1,0 +1,14 @@
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\Lesson8\bin\Debug\net7.0\Lesson8.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\Lesson8\bin\Debug\net7.0\Lesson8.deps.json
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\Lesson8\bin\Debug\net7.0\Lesson8.runtimeconfig.json
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\Lesson8\bin\Debug\net7.0\Lesson8.dll
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\Lesson8\bin\Debug\net7.0\Lesson8.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\Lesson8\obj\Debug\net7.0\Lesson8.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\Lesson8\obj\Debug\net7.0\Lesson8.AssemblyInfoInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\Lesson8\obj\Debug\net7.0\Lesson8.AssemblyInfo.cs
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\Lesson8\obj\Debug\net7.0\Lesson8.csproj.CoreCompileInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\Lesson8\obj\Debug\net7.0\Lesson8.dll
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\Lesson8\obj\Debug\net7.0\refint\Lesson8.dll
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\Lesson8\obj\Debug\net7.0\Lesson8.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\Lesson8\obj\Debug\net7.0\Lesson8.genruntimeconfig.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\Lesson8\obj\Debug\net7.0\ref\Lesson8.dll

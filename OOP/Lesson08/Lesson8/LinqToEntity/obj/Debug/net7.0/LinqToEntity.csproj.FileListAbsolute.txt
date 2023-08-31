@@ -1,0 +1,14 @@
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\LinqToEntity\bin\Debug\net7.0\LinqToEntity.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\LinqToEntity\bin\Debug\net7.0\LinqToEntity.deps.json
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\LinqToEntity\bin\Debug\net7.0\LinqToEntity.runtimeconfig.json
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\LinqToEntity\bin\Debug\net7.0\LinqToEntity.dll
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\LinqToEntity\bin\Debug\net7.0\LinqToEntity.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\LinqToEntity\obj\Debug\net7.0\LinqToEntity.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\LinqToEntity\obj\Debug\net7.0\LinqToEntity.AssemblyInfoInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\LinqToEntity\obj\Debug\net7.0\LinqToEntity.AssemblyInfo.cs
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\LinqToEntity\obj\Debug\net7.0\LinqToEntity.csproj.CoreCompileInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\LinqToEntity\obj\Debug\net7.0\LinqToEntity.dll
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\LinqToEntity\obj\Debug\net7.0\refint\LinqToEntity.dll
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\LinqToEntity\obj\Debug\net7.0\LinqToEntity.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\LinqToEntity\obj\Debug\net7.0\LinqToEntity.genruntimeconfig.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lesson8\LinqToEntity\obj\Debug\net7.0\ref\LinqToEntity.dll

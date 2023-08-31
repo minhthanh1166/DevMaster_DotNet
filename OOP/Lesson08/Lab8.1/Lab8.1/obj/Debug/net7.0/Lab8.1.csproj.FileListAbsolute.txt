@@ -1,0 +1,14 @@
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lab8.1\Lab8.1\bin\Debug\net7.0\Lab8.1.exe
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lab8.1\Lab8.1\bin\Debug\net7.0\Lab8.1.deps.json
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lab8.1\Lab8.1\bin\Debug\net7.0\Lab8.1.runtimeconfig.json
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lab8.1\Lab8.1\bin\Debug\net7.0\Lab8.1.dll
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lab8.1\Lab8.1\bin\Debug\net7.0\Lab8.1.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lab8.1\Lab8.1\obj\Debug\net7.0\Lab8.1.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lab8.1\Lab8.1\obj\Debug\net7.0\Lab8.1.AssemblyInfoInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lab8.1\Lab8.1\obj\Debug\net7.0\Lab8.1.AssemblyInfo.cs
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lab8.1\Lab8.1\obj\Debug\net7.0\Lab8.1.csproj.CoreCompileInputs.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lab8.1\Lab8.1\obj\Debug\net7.0\Lab8.1.dll
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lab8.1\Lab8.1\obj\Debug\net7.0\refint\Lab8.1.dll
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lab8.1\Lab8.1\obj\Debug\net7.0\Lab8.1.pdb
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lab8.1\Lab8.1\obj\Debug\net7.0\Lab8.1.genruntimeconfig.cache
+D:\WorkSpace\C#\DevMaster_DotNet\OOP\Lesson08\Lab8.1\Lab8.1\obj\Debug\net7.0\ref\Lab8.1.dll
