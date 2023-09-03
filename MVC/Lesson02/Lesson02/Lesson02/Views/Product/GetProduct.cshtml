@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "GetProduct";
+    var products =  ViewData["product"] as Product;
+}
+
+<h1>Get Product</h1>
+<div>
+    <h5 class="my-4">Hiển thị dữ liệu lấy từ ViewBag</h5>
+    <p>@ViewBag.product.ProductId</p>
+    <p>@ViewBag.product.ProductName</p>
+    <p>@ViewBag.product.YearRelease</p>
+    <p>@ViewBag.product.Price</p>
+</div>
+
+<div class="mt-3">
+    <h5 class="my-4">Hiển thị dữ liệu lấy từ ViewData</h5>
+    <p>@products?.ProductId</p>
+    <p>@products?.ProductName</p>
+    <p>@products?.YearRelease</p>
+    <p>@products?.Price</p>
+</div>

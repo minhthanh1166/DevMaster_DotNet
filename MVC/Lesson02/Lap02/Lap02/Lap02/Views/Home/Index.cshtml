@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var account = ViewBag.account;
+}
+
+<div class="row">
+    @foreach (var item in account)
+    {
+        <div class="col-lg-2 col-md-3">
+            <div class="card border-0 border-top border-5 rounded border-primary">
+                <img class="card-img rounded-0" src="@item.Avatar" alt="avt" />
+                <div class="card-body">
+                    <h5 class="card-title text-center">@item.Name</h5>
+                    <p class="card-text text-center">@item.Bio</p>
+                    <div class="text-center">
+                        <a asp-action="Profile" asp-route-id="@item.Id" class="btn btn-outline-primary">Profile</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

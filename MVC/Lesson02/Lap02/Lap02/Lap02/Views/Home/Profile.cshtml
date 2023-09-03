@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Profile";
+    Account profiles = ViewBag.profile;
+    string check = profiles.Gender == 1 ? "Nam" : "Nữ";
+}
+
+
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="card-img" src="@profiles.Avatar" />
+            </div>
+            <div class="col-lg-8">
+                <h2 class="card-title">Full name: @profiles.Name</h2>
+                <h3 class="card-title">Email: @profiles.Email</h3>
+                <h3 class="card-title">Phone: @profiles.Phone</h3>
+                <h3 class="card-title">Address: @profiles.Address</h3>
+                <h3 class="card-title">Bio: @profiles.Bio</h3>
+                <h3 class="card-title">Gender: @check</h3>
+                <a class="btn btn-danger mt-3" asp-action="Index">Back to list</a>
+            </div>
+        </div>
+    </div>
+</div>
+
