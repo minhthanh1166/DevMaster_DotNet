@@ -2,7 +2,42 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@model CategoryAndProduct
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            @foreach (var item in Model.Category)
+            {
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a class="text-decoration-none" href="#">@item.Name</a>
+                    </li>
+                </ul>
+            }
+        </div>
+        <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="row ">
+                @foreach (var item in Model.Product)
+                {
+                    <div class="col-md-2 col-md-4 p-1 p-md-0 px-md-1">
+                        <div class="card">
+                            <img class="card-img" src="@item.Image" alt="imgs"/>
+                            <div class="card-body">
+                                <p class="card-title h5">@item.Name</p>
+                                <div class="d-sm-flex justify-content-between text-center">
+                                    <p class="card-text text-success fw-bold">Giá bán: @item.Price đ</p>
+                                    <p class="card-text text-decoration-line-through text-danger">Giá cũ: @item.SalePrice đ</p>
+                                </div>
+                                <div class="text-center mt-4 mt-md-0">
+                                    <a class="btn btn-primary" asp-action="Profile" asp-route-id ="@item.Id">Xem chi tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
 </div>
