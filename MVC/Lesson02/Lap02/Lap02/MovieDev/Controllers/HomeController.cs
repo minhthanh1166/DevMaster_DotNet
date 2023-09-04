@@ -17,7 +17,7 @@ namespace MovieDev.Controllers
                 },
                 new Category
                 {
-                    Id = 1,
+                    Id = 2,
                     Name = "Phim viễn tưởng"
                 }
             };
@@ -75,8 +75,8 @@ namespace MovieDev.Controllers
 
             var categoryAndProduct = new CategoryAndProduct
             {
-                Product = products,
-                Category = categories
+                ListProduct = products,
+                ListCategory = categories
             };
 
             return View(categoryAndProduct);
@@ -84,13 +84,30 @@ namespace MovieDev.Controllers
 
         public IActionResult Profile(int? id)
         {
-            if(id != null)
+            if (id != null)
             {
                 var objProduct = ListProduct().Find(x => x.Id == id);
-                ViewBag.product = objProduct;
-                return View();
+
+                if (objProduct != null)
+                {
+                    var categoryId = objProduct.categoryId; // Lấy categoryId từ objProduct
+
+                    var category = ListCategory().Find(x => x.Id == categoryId);
+
+                    if (category != null)
+                    {
+                        var categoryAndProduct = new CategoryAndProduct
+                        {
+                            ListProduct = new List<Product> { objProduct }, // Đưa objProduct vào danh sách Product
+                            ListCategory = new List<Category> { category }, // Đưa category vào danh sách Category
+                            NameCategory = category.Name // Gán tên danh mục
+                        };
+
+                        return View(categoryAndProduct);
+                    }
+                }
             }
-                
+
             return RedirectToAction("Index");
         }
     }

@@ -2,28 +2,29 @@
 @{
     ViewData["Title"] = "Profile";
     Product products = ViewBag.product;
+    DateTime createAt = Model.ListProduct.First().createAt; // Lấy ngày tạo từ sản phẩm
+    string formattedDate = createAt.ToString("dd/MM/yyyy"); // Định dạng ngày tháng
 }
-
+@model CategoryAndProduct
 
 <div class="container">
     <div class="card">
         <div class="row">
             <div class="col-md-3">
                 <div class="card-body">
-                    <img class="card-img" src="@products.Image" />
+                    <img class="card-img" src="@Model.ListProduct.First().Image" />
                 </div>
             </div>
             <div class="col-md-9">
                 <div class="card-body">
-                    <h2 class="card-title">@products.Name</h2>
-                    <h3 class="card-title">@products.Price</h3>
-                    <h3 class="card-title">@products.Price</h3>
-                    <h3 class="card-title">@products.categoryId</h3>
-                    <h3 class="card-title">@products.SalePrice</h3>
-                    <h3 class="card-title">@products.Description</h3>
-                    <h3 class="card-title">@products.Description</h3>
-                    <h3 class="card-title">@products.status</h3>
-                    <h3 class="card-title">@products.createAt</h3>
+                    <h2 class="card-title">Name: @Model.ListProduct.First().Name</h2>
+                    <h3 class="card-title">Price: @Model.ListProduct.First().Price</h3>
+                    <h3 class="card-title">Category: @Model.NameCategory</h3>
+                    <h3 class="card-title">SalePrice: @Model.ListProduct.First().SalePrice</h3>
+                    <h3 class="card-title">Description: @Model.ListProduct.First().Description</h3>
+                    <h3 class="card-title">Status: @Model.ListProduct.First().status</h3>
+                    <h3 class="card-title">CreateAt: @formattedDate</h3>
+                    <a class="btn btn-danger mt-4" asp-action="Index">Back to list</a>
                 </div>
             </div>
         </div>

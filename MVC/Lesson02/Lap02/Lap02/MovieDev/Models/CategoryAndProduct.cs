@@ -4,7 +4,9 @@ namespace MovieDev.Models
 {
     public class CategoryAndProduct
     {
-        public IEnumerable<Product> Product { get; set; }
-        public IEnumerable<Category> Category { get; set; }
+        public IEnumerable<Product> ListProduct { get; set; }
+        public IEnumerable<Category> ListCategory { get; set; }
+        public string NameCategory { get; set; }
+     
     }
 }
