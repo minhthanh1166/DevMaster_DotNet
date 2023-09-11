@@ -92,15 +92,15 @@ namespace MovieDev.Controllers
                 {
                     var categoryId = objProduct.categoryId; // Lấy categoryId từ objProduct
 
-                    var category = ListCategory().Find(x => x.Id == categoryId);
+                    var objCategory = ListCategory().Find(x => x.Id == categoryId);
 
-                    if (category != null)
+                    if (objCategory != null)
                     {
                         var categoryAndProduct = new CategoryAndProduct
                         {
                             ListProduct = new List<Product> { objProduct }, // Đưa objProduct vào danh sách Product
-                            ListCategory = new List<Category> { category }, // Đưa category vào danh sách Category
-                            NameCategory = category.Name // Gán tên danh mục
+                            ListCategory = new List<Category> { objCategory }, // Đưa objCategory vào danh sách Category
+                            NameCategory = objCategory.Name // Gán tên danh mục
                         };
 
                         return View(categoryAndProduct);
