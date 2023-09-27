@@ -8,26 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Minh Thanh\\.nuget\\packages\\": {},
-    "D:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\buimi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Workspace\\DevMaster_DotNet\\MVC\\Lesson05\\Lesson05\\Lesson05\\Lesson05.csproj",
+      "projectUniqueName": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson05\\Lesson05\\Lesson05\\Lesson05.csproj",
       "projectName": "Lesson05",
-      "projectPath": "F:\\Workspace\\DevMaster_DotNet\\MVC\\Lesson05\\Lesson05\\Lesson05\\Lesson05.csproj",
-      "packagesPath": "C:\\Users\\Minh Thanh\\.nuget\\packages\\",
-      "outputPath": "F:\\Workspace\\DevMaster_DotNet\\MVC\\Lesson05\\Lesson05\\Lesson05\\obj\\",
+      "projectPath": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson05\\Lesson05\\Lesson05\\Lesson05.csproj",
+      "packagesPath": "C:\\Users\\buimi\\.nuget\\packages\\",
+      "outputPath": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson05\\Lesson05\\Lesson05\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Minh Thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+        "C:\\Users\\buimi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -37,8 +34,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-        "D:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -75,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
