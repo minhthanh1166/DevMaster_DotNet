@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F6VVoXdV/S8Fn7MjwqMLUgDuEzdDwG+g76aM38AoW4E=",
+  "Hash": "plj9phHbO8jAYF3mXwdEv4ld7uNtt2YXFFf/IV3YmN0=",
   "Source": "Lesson08_LabDemo",
   "BasePath": "_content/Lesson08_LabDemo",
   "Mode": "Default",
@@ -1275,6 +1275,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "F:\\Workspace\\DevMaster_DotNet\\MVC\\Lesson08\\Lesson08\\Lesson08_LabDemo\\Lesson08_LabDemo\\wwwroot\\images\\categories\\banner01.jpg",
+      "SourceId": "Lesson08_LabDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Workspace\\DevMaster_DotNet\\MVC\\Lesson08\\Lesson08\\Lesson08_LabDemo\\Lesson08_LabDemo\\wwwroot\\",
+      "BasePath": "_content/Lesson08_LabDemo",
+      "RelativePath": "images/categories/banner01.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\categories\\banner01.jpg"
+    },
+    {
       "Identity": "F:\\Workspace\\DevMaster_DotNet\\MVC\\Lesson08\\Lesson08\\Lesson08_LabDemo\\Lesson08_LabDemo\\wwwroot\\images\\categories\\banner02.jpg",
       "SourceId": "Lesson08_LabDemo",
       "SourceType": "Discovered",
@@ -1290,23 +1307,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\categories\\banner02.jpg"
-    },
-    {
-      "Identity": "F:\\Workspace\\DevMaster_DotNet\\MVC\\Lesson08\\Lesson08\\Lesson08_LabDemo\\Lesson08_LabDemo\\wwwroot\\images\\categories\\banner03.jpg",
-      "SourceId": "Lesson08_LabDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\Workspace\\DevMaster_DotNet\\MVC\\Lesson08\\Lesson08\\Lesson08_LabDemo\\Lesson08_LabDemo\\wwwroot\\",
-      "BasePath": "_content/Lesson08_LabDemo",
-      "RelativePath": "images/categories/banner03.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\categories\\banner03.jpg"
     },
     {
       "Identity": "F:\\Workspace\\DevMaster_DotNet\\MVC\\Lesson08\\Lesson08\\Lesson08_LabDemo\\Lesson08_LabDemo\\wwwroot\\js\\site.js",
