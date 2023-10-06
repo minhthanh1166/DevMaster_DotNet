@@ -39,8 +39,7 @@ namespace Lesson08_LabDemo.Areas.Admins.Models
         [StringLength(1000)]
         public string? Description { get; set; }
         [Display(Name = "Ngày tạo")]
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
-        public DateTime? CreateDate { get; set; } = DateTime.Now;
+        public DateTime? CreateDate { get; set; }
         [Display(Name = "Tên loại")]
         [Required(ErrorMessage = "Tên loại không được để trống!")]
         [ForeignKey("CategoryId")]

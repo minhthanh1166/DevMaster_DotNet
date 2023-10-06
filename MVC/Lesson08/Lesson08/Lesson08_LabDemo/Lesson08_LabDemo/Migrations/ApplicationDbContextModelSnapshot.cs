@@ -22,7 +22,7 @@ namespace Lesson08_LabDemo.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Lesson08_LabDemo.Models.Account", b =>
+            modelBuilder.Entity("Lesson08_LabDemo.Areas.Admins.Models.Account", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -31,8 +31,9 @@ namespace Lesson08_LabDemo.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime?>("CreateDate")
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2023, 10, 3, 21, 47, 14, 948, DateTimeKind.Local).AddTicks(5757));
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -74,7 +75,7 @@ namespace Lesson08_LabDemo.Migrations
                     b.ToTable("Account");
                 });
 
-            modelBuilder.Entity("Lesson08_LabDemo.Models.Banner", b =>
+            modelBuilder.Entity("Lesson08_LabDemo.Areas.Admins.Models.Banner", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -83,8 +84,9 @@ namespace Lesson08_LabDemo.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime?>("CreateDate")
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2023, 10, 3, 21, 47, 14, 948, DateTimeKind.Local).AddTicks(6003));
 
                     b.Property<string>("Description")
                         .HasMaxLength(350)
@@ -113,7 +115,7 @@ namespace Lesson08_LabDemo.Migrations
                     b.ToTable("Banner");
                 });
 
-            modelBuilder.Entity("Lesson08_LabDemo.Models.Blog", b =>
+            modelBuilder.Entity("Lesson08_LabDemo.Areas.Admins.Models.Blog", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -122,8 +124,9 @@ namespace Lesson08_LabDemo.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime?>("CreateDate")
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2023, 10, 3, 21, 47, 14, 948, DateTimeKind.Local).AddTicks(6216));
 
                     b.Property<string>("Description")
                         .HasMaxLength(1500)
@@ -152,7 +155,7 @@ namespace Lesson08_LabDemo.Migrations
                     b.ToTable("Blog");
                 });
 
-            modelBuilder.Entity("Lesson08_LabDemo.Models.Category", b =>
+            modelBuilder.Entity("Lesson08_LabDemo.Areas.Admins.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -161,8 +164,9 @@ namespace Lesson08_LabDemo.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime?>("CreateDate")
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2023, 10, 3, 21, 47, 14, 948, DateTimeKind.Local).AddTicks(5407));
 
                     b.Property<string>("Description")
                         .HasMaxLength(350)
@@ -188,7 +192,7 @@ namespace Lesson08_LabDemo.Migrations
                     b.ToTable("Category");
                 });
 
-            modelBuilder.Entity("Lesson08_LabDemo.Models.Customer", b =>
+            modelBuilder.Entity("Lesson08_LabDemo.Areas.Admins.Models.Customer", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -202,8 +206,9 @@ namespace Lesson08_LabDemo.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<DateTime?>("CreateDate")
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2023, 10, 3, 21, 47, 14, 948, DateTimeKind.Local).AddTicks(6458));
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -253,7 +258,7 @@ namespace Lesson08_LabDemo.Migrations
                     b.ToTable("Customer");
                 });
 
-            modelBuilder.Entity("Lesson08_LabDemo.Models.Order", b =>
+            modelBuilder.Entity("Lesson08_LabDemo.Areas.Admins.Models.Order", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -268,7 +273,8 @@ namespace Lesson08_LabDemo.Migrations
 
                     b.Property<DateTime?>("CreateDate")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2023, 10, 3, 21, 47, 14, 948, DateTimeKind.Local).AddTicks(6651));
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -294,7 +300,7 @@ namespace Lesson08_LabDemo.Migrations
                     b.ToTable("Order");
                 });
 
-            modelBuilder.Entity("Lesson08_LabDemo.Models.OrderDetail", b =>
+            modelBuilder.Entity("Lesson08_LabDemo.Areas.Admins.Models.OrderDetail", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -325,7 +331,7 @@ namespace Lesson08_LabDemo.Migrations
                     b.ToTable("OrderDetail");
                 });
 
-            modelBuilder.Entity("Lesson08_LabDemo.Models.Product", b =>
+            modelBuilder.Entity("Lesson08_LabDemo.Areas.Admins.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -338,8 +344,9 @@ namespace Lesson08_LabDemo.Migrations
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("CreateDate")
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2023, 10, 3, 21, 47, 14, 948, DateTimeKind.Local).AddTicks(6902));
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -375,15 +382,15 @@ namespace Lesson08_LabDemo.Migrations
                     b.ToTable("Product");
                 });
 
-            modelBuilder.Entity("Lesson08_LabDemo.Models.OrderDetail", b =>
+            modelBuilder.Entity("Lesson08_LabDemo.Areas.Admins.Models.OrderDetail", b =>
                 {
-                    b.HasOne("Lesson08_LabDemo.Models.Order", "Order")
+                    b.HasOne("Lesson08_LabDemo.Areas.Admins.Models.Order", "Order")
                         .WithMany()
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Lesson08_LabDemo.Models.Product", "Product")
+                    b.HasOne("Lesson08_LabDemo.Areas.Admins.Models.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -394,9 +401,9 @@ namespace Lesson08_LabDemo.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Lesson08_LabDemo.Models.Product", b =>
+            modelBuilder.Entity("Lesson08_LabDemo.Areas.Admins.Models.Product", b =>
                 {
-                    b.HasOne("Lesson08_LabDemo.Models.Category", "Category")
+                    b.HasOne("Lesson08_LabDemo.Areas.Admins.Models.Category", "Category")
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -405,7 +412,7 @@ namespace Lesson08_LabDemo.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("Lesson08_LabDemo.Models.Category", b =>
+            modelBuilder.Entity("Lesson08_LabDemo.Areas.Admins.Models.Category", b =>
                 {
                     b.Navigation("Products");
                 });

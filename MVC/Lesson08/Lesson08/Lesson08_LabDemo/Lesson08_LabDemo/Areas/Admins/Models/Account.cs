@@ -48,8 +48,7 @@ namespace Lesson08_LabDemo.Areas.Admins.Models
         [StringLength(500)]
         public string? Facebook { get; set; }
         [Display(Name = "Ngày tạo")]
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
-        public DateTime? CreateDate { get; set; } = DateTime.Now;
+        public DateTime? CreateDate { get; set; }
         [Display(Name = "Trạng thái")]
         [DefaultValue(1)]
         public byte Status { get; set; } = 1;

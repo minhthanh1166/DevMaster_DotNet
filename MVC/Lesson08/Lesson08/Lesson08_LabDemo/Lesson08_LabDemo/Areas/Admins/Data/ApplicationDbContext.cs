@@ -22,6 +22,41 @@ namespace Lesson08_LabDemo.Areas.Admins.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Category>(entity =>
+            {
+                entity.Property(x => x.CreateDate).HasDefaultValue(DateTime.Now);
+            });
+
+            modelBuilder.Entity<Account>(entity =>
+            {
+                entity.Property(x => x.CreateDate).HasDefaultValue(DateTime.Now);
+            });
+
+            modelBuilder.Entity<Banner>(entity =>
+            {
+                entity.Property(x => x.CreateDate).HasDefaultValue(DateTime.Now);
+            });
+
+            modelBuilder.Entity<Blog>(entity =>
+            {
+                entity.Property(x => x.CreateDate).HasDefaultValue(DateTime.Now);
+            });
+
+            modelBuilder.Entity<Customer>(entity =>
+            {
+                entity.Property(x => x.CreateDate).HasDefaultValue(DateTime.Now);
+            });
+
+            modelBuilder.Entity<Order>(entity =>
+            {
+                entity.Property(x => x.CreateDate).HasDefaultValue(DateTime.Now);
+            });
+
+            modelBuilder.Entity<Product>(entity =>
+            {
+                entity.Property(x => x.CreateDate).HasDefaultValue(DateTime.Now);
+            });
+
             base.OnModelCreating(modelBuilder);
         }
     }

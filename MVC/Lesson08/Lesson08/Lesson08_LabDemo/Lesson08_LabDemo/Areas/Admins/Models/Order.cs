@@ -31,7 +31,6 @@ namespace Lesson08_LabDemo.Areas.Admins.Models
         [StringLength(500)]
         public string? Note { get; set; }
         [Display(Name = "Ngày tạo")]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public DateTime? CreateDate { get; set; } = DateTime.Now;
+        public DateTime? CreateDate { get; set; }
     }
 }

@@ -6,9 +6,14 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<div class="d-flex">
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+    <form method="get" class="form-inline">
+        <input type="text" class="form-control mx-1" name="name" value="@ViewBag.keyword" style="width: 250px" placeholder="Tìm kiếm" />
+        <input type="submit" value="Tìm" class="btn btn-primary" />
+    </form>
+</div>
+
 <table class="table">
     <thead>
         <tr>

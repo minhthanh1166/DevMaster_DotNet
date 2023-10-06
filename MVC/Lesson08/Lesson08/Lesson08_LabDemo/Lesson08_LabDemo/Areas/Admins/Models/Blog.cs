@@ -24,8 +24,7 @@ namespace Lesson08_LabDemo.Areas.Admins.Models
         [DefaultValue(0)]
         public int VỉewCount { get; set; } = 0;
         [Display(Name = "Ngày tạo")]
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
-        public DateTime? CreateDate { get; set; } = DateTime.Now;
+        public DateTime? CreateDate { get; set; }
         [Display(Name = "Hình ảnh")]
         [StringLength(100)]
         [MaxLength(100, ErrorMessage = "Đường dẫn quá dài!")]

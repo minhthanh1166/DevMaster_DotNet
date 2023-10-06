@@ -7,12 +7,15 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Lesson08_LabDemo.Areas.Admins.Data;
 using Lesson08_LabDemo.Areas.Admins.Models;
+using X.PagedList;
 
 namespace Lesson08_LabDemo.Areas.Admins.Controllers
 {
     [Area("Admins")]
     public class AccountsController : Controller
     {
+        public List<SelectListItem> StatusListItem { get; } = new List<SelectListItem>();
+
         private readonly ApplicationDbContext _context;
 
         public AccountsController(ApplicationDbContext context)
@@ -21,11 +24,18 @@ namespace Lesson08_LabDemo.Areas.Admins.Controllers
         }
 
         // GET: Admins/Accounts
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string name, int page = 1)
         {
-              return _context.Accounts != null ? 
-                          View(await _context.Accounts.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Accounts'  is null.");
+            int limit = 5;
+            var account = await _context.Accounts.OrderBy(x => x.Id).ToPagedListAsync(page, limit);
+
+            if (!String.IsNullOrEmpty(name))
+            {
+                account = await _context.Accounts.OrderBy(x => x.Id).Where(x => x.Name.Contains(name)).ToPagedListAsync(page, limit);
+            }
+
+            ViewBag.keyword = name;
+            return View(account);
         }
 
         // GET: Admins/Accounts/Details/5
@@ -47,8 +57,13 @@ namespace Lesson08_LabDemo.Areas.Admins.Controllers
         }
 
         // GET: Admins/Accounts/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            var category = await _context.Categorys.ToListAsync();
+            foreach(var item in category)
+            {
+                StatusListItem.Add(new SelectListItem { Value = item.Id.ToString(), Text = item.Status.ToString() });
+            }
             return View();
         }
 
@@ -178,14 +193,14 @@ namespace Lesson08_LabDemo.Areas.Admins.Controllers
             {
                 _context.Accounts.Remove(account);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool AccountExists(int id)
         {
-          return (_context.Accounts?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Accounts?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using Lesson08_LabDemo.Areas.Admins.Data;
 using Lesson08_LabDemo.Areas.Admins.Models;
 using System.IO;
+using System.Runtime.CompilerServices;
+using X.PagedList;
 
 namespace Lesson08_LabDemo.Areas.Admins.Controllers
 {
@@ -22,11 +24,18 @@ namespace Lesson08_LabDemo.Areas.Admins.Controllers
         }
 
         // GET: Admins/Categories
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string name, int page = 1)
         {
-              return _context.Categorys != null ? 
-                          View(await _context.Categorys.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Categorys'  is null.");
+            int limit = 1;
+
+            //var category = await _context.Categorys.ToListAsync();
+            var category = await _context.Categorys.OrderBy(x => x.Id).ToPagedListAsync(page, limit);
+            if (!String.IsNullOrEmpty(name))
+            {
+                category = await _context.Categorys.OrderBy(x => x.Id).Where(x=>x.Name.Contains(name)).ToPagedListAsync(page, limit);
+            }
+            ViewBag.keyword = name;
+            return View(category);
         }
 
         // GET: Admins/Categories/Details/5
@@ -100,35 +109,6 @@ namespace Lesson08_LabDemo.Areas.Admins.Controllers
             return View(category);
         }
 
-        private string AddImage(Category result)
-        {
-            var files = HttpContext.Request.Form.Files;
-
-            // Kiểm tra xem tệp tồn tại tệp mới được tải lên
-            if (result != null)
-            {
-                if (files.Count > 0 && files[0].Length > 0)
-                {
-                    // Kiểm tra xem tệp ảnh cũ có tồn tại không
-                    if (System.IO.File.Exists("wwwroot/" + result.Image))
-                    {
-                        // Xóa tệp ảnh cũ
-                        System.IO.File.Delete("wwwroot/" + result.Image);
-                    }
-
-                    var file = files[0];
-                    var fileName = file.FileName;
-                    // Tạo đường dẫn mới cho tệp ảnh
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\categories\\" + fileName);
-                    using (var stream = new FileStream(path, FileMode.Create))
-                    {
-                        file.CopyTo(stream);
-                        return result.Image = "/images/categories/" + fileName;
-                    }
-                }
-            }
-            return result.Image = result.Image;
-        }
 
         // POST: Admins/Categories/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.

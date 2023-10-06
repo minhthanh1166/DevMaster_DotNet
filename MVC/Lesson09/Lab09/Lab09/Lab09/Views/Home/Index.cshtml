@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+}
+
+@model IEnumerable<Product>
+
+<style>
+    .product-card:hover {
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+</style>
+
+<div class="row bg-white">
+    @foreach (var item in Model)
+    {
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
+            <div class="card  product-card">
+                <img class="card-img" src="@item.Image" style="width: auto; height: 10rem;" alt="@item.Content" />
+                <div class="card-body text-center">
+                    <h6 class="card-title text-uppercase"><a asp-action="Product" asp-route-id="@item.Id" class="text-decoration-none">@item.Title</a></h6>
+                    <p class="card-text d-inline text-decoration-line-through">@String.Format("{0:#,##0}" ,item.PriceOld) VNĐ</p>
+                    <p style="margin-bottom: 4px">@String.Format("{0:#,##0}" ,item.PriceNew) VNĐ</p>
+                    <a asp-controller="Card" asp-action="Index" asp-route-id="@item.Id" class="card-text text-decoration-none" style="color: red">
+                        <i class="bi bi-bag-check-fill"></i>
+                        Mua hàng
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+

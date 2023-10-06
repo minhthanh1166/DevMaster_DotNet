@@ -640,6 +640,19 @@
           }
         }
       },
+      "JetBrains.Annotations/2022.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Razor.Language/6.0.11": {
         "type": "package",
         "compile": {
@@ -3853,6 +3866,33 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "X.PagedList/9.0.0-prerelease": {
+        "type": "package",
+        "dependencies": {
+          "JetBrains.Annotations": "2022.3.1"
+        },
+        "compile": {
+          "lib/net7.0/X.PagedList.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/X.PagedList.dll": {}
+        }
+      },
+      "X.PagedList.Mvc.Core/9.0.0-prerelease": {
+        "type": "package",
+        "dependencies": {
+          "X.PagedList": "9.0.0-prerelease"
+        },
+        "compile": {
+          "lib/net7.0/X.PagedList.Mvc.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/X.PagedList.Mvc.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -4639,6 +4679,28 @@
         "lib/netstandard1.0/zh-Hant/Humanizer.resources.dll",
         "lib/netstandard2.0/zh-Hant/Humanizer.resources.dll",
         "logo.png"
+      ]
+    },
+    "JetBrains.Annotations/2022.3.1": {
+      "sha512": "11nsS3+lFICGkztVs9PP2NRItxf9fF+qD6xEW/T0YGto52zj07wseUeBdMAU1ah9HNVTDZyRC1u4NWdtJScwhw==",
+      "type": "package",
+      "path": "jetbrains.annotations/2022.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "jetbrains.annotations.2022.3.1.nupkg.sha512",
+        "jetbrains.annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/netstandard1.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard1.0/JetBrains.Annotations.dll",
+        "lib/netstandard1.0/JetBrains.Annotations.xml",
+        "lib/netstandard2.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard2.0/JetBrains.Annotations.dll",
+        "lib/netstandard2.0/JetBrains.Annotations.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
       ]
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.11": {
@@ -11199,6 +11261,34 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "X.PagedList/9.0.0-prerelease": {
+      "sha512": "X8g+0H+OvauZSd22qreeiBlGPI5gMw8R+TDacAplt7hnBBmWoqiJho6Hy2ROW8z7KjtAVqxhye/FoB9EX7wgvg==",
+      "type": "package",
+      "path": "x.pagedlist/9.0.0-prerelease",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/X.PagedList.dll",
+        "lib/net7.0/X.PagedList.dll",
+        "lib/netstandard2.0/X.PagedList.dll",
+        "lib/netstandard2.1/X.PagedList.dll",
+        "x.pagedlist.9.0.0-prerelease.nupkg.sha512",
+        "x.pagedlist.nuspec"
+      ]
+    },
+    "X.PagedList.Mvc.Core/9.0.0-prerelease": {
+      "sha512": "ixEd88gKHjHW1UJn9fmxcPr0bGx4iQXKhXyZ1chBpLPAWbcjZxAD0+F2U2hF5dGQGG/+0Ugs1B/C6m/7pzrJZA==",
+      "type": "package",
+      "path": "x.pagedlist.mvc.core/9.0.0-prerelease",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/X.PagedList.Mvc.Core.dll",
+        "lib/net7.0/X.PagedList.Mvc.Core.dll",
+        "x.pagedlist.mvc.core.9.0.0-prerelease.nupkg.sha512",
+        "x.pagedlist.mvc.core.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -11207,30 +11297,28 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.11",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.9"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.9",
+      "X.PagedList.Mvc.Core >= 9.0.0-prerelease"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Minh Thanh\\.nuget\\packages\\": {},
-    "D:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\buimi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Workspace\\DevMaster_DotNet\\MVC\\Lesson08\\Lesson08\\Lesson08_LabDemo\\Lesson08_LabDemo\\Lesson08_LabDemo.csproj",
+      "projectUniqueName": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson08\\Lesson08\\Lesson08_LabDemo\\Lesson08_LabDemo\\Lesson08_LabDemo.csproj",
       "projectName": "Lesson08_LabDemo",
-      "projectPath": "F:\\Workspace\\DevMaster_DotNet\\MVC\\Lesson08\\Lesson08\\Lesson08_LabDemo\\Lesson08_LabDemo\\Lesson08_LabDemo.csproj",
-      "packagesPath": "C:\\Users\\Minh Thanh\\.nuget\\packages\\",
-      "outputPath": "F:\\Workspace\\DevMaster_DotNet\\MVC\\Lesson08\\Lesson08\\Lesson08_LabDemo\\Lesson08_LabDemo\\obj\\",
+      "projectPath": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson08\\Lesson08\\Lesson08_LabDemo\\Lesson08_LabDemo\\Lesson08_LabDemo.csproj",
+      "packagesPath": "C:\\Users\\buimi\\.nuget\\packages\\",
+      "outputPath": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson08\\Lesson08\\Lesson08_LabDemo\\Lesson08_LabDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Minh Thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+        "C:\\Users\\buimi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11240,8 +11328,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-        "D:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11283,6 +11369,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[7.0.9, )"
+          },
+          "X.PagedList.Mvc.Core": {
+            "target": "Package",
+            "version": "[9.0.0-prerelease, )"
           }
         },
         "imports": [
@@ -11304,7 +11394,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
