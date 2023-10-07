@@ -23,6 +23,14 @@ namespace Lab09.Controllers
         }
 
         [HttpGet]
+        public async Task<IActionResult> GetItemProduct(int? id)
+        {
+            var product = await _scontext.Products.FindAsync(id);
+            var products = await _scontext.Products.ToListAsync();
+            return id != null ? (product != null ? Json(product) : NotFound()) : (products != null ? Json(products) : NotFound());
+        }
+
+        [HttpGet]
         public async Task<IActionResult> Product(int id)
         {
             var product = await _scontext.Products.FindAsync(id);

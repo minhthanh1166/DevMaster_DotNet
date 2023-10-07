@@ -129,6 +129,46 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson09\\Lab09\\Lab09\\Lab09\\wwwroot\\jquery-ui-1.13.2.custom.zip",
+      "PackagePath": "staticwebassets\\jquery-ui-1.13.2.custom.zip"
+    },
+    {
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson09\\Lab09\\Lab09\\Lab09\\wwwroot\\jquery-ui\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\jquery-ui\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson09\\Lab09\\Lab09\\Lab09\\wwwroot\\jquery-ui\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\jquery-ui\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson09\\Lab09\\Lab09\\Lab09\\wwwroot\\jquery-ui\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\jquery-ui\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson09\\Lab09\\Lab09\\Lab09\\wwwroot\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson09\\Lab09\\Lab09\\Lab09\\wwwroot\\jquery-ui\\jquery-ui.structure.css",
+      "PackagePath": "staticwebassets\\jquery-ui\\jquery-ui.structure.css"
+    },
+    {
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson09\\Lab09\\Lab09\\Lab09\\wwwroot\\jquery-ui\\jquery-ui.structure.min.css",
+      "PackagePath": "staticwebassets\\jquery-ui\\jquery-ui.structure.min.css"
+    },
+    {
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson09\\Lab09\\Lab09\\Lab09\\wwwroot\\jquery-ui\\jquery-ui.theme.css",
+      "PackagePath": "staticwebassets\\jquery-ui\\jquery-ui.theme.css"
+    },
+    {
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson09\\Lab09\\Lab09\\Lab09\\wwwroot\\jquery-ui\\jquery-ui.theme.min.css",
+      "PackagePath": "staticwebassets\\jquery-ui\\jquery-ui.theme.min.css"
+    },
+    {
+      "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson09\\Lab09\\Lab09\\Lab09\\wwwroot\\jquery-ui\\jquery.js",
+      "PackagePath": "staticwebassets\\jquery-ui\\jquery.js"
+    },
+    {
       "Id": "D:\\WorkSpace\\C#\\DevMaster_DotNet\\MVC\\Lesson09\\Lab09\\Lab09\\Lab09\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
