@@ -72,7 +72,7 @@ namespace Lab09.Controllers
             return RedirectToAction("Index");
         }
 
-        public async Task<IActionResult> Update(int id, int quantity)
+        public IActionResult Update(int id, int quantity)
         {
             if(carts.Any(x=>x.Id == id))
             {

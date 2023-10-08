@@ -15,7 +15,7 @@
     @foreach (var item in Model)
     {
         <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-1">
-            <div id="myTool" title="" class="card product-card hover-content" data-product-id="@item.Id">
+            <div class="tooltips card product-card hover-content" data-product-id="@item.Id">
                 <img class="card-img" src="@item.Image" style="width: auto; height: 10rem;" alt="@item.Content" />
                 <div class="card-body text-center">
                     <h6 class="card-title text-uppercase"><a asp-action="Product" asp-route-id="@item.Id" class="text-decoration-none">@item.Title</a></h6>
@@ -34,65 +34,35 @@
 
 @section Scripts {
     <script>
-        var products = [];
-
-        $(function () {
-            // Lấy danh sách sản phẩm từ máy chủ
-            $.ajax({
-                url: "https://localhost:7020/Home/GetItemProduct",
-                success: function (data) {
-                    // Thêm các sản phẩm vào danh sách
-                    products = data;
-
-                    // Tạo tooltip cho từng sản phẩm
-                    for (var product of products) {
-                        $("#" + product.id).tooltip({
-                            html: `
-                              <div class="tooltip-content">
-                                <h2>${product.title}</h2>
-                              
-                              </div>
-                            `,
-                        });
-                    }
-                },
-            });
-        });
-
         $(document).ready(function () {
 
-           
-            // // Get the products list
-            // var products = $(".hover-content");
+            $('.tooltips').tooltipster({
+                contentAsHTML: true,
+                content: 'Loading...', // Nội dung ban đầu của tooltipster
+                trigger: 'hover',
+                // theme: 'tooltipster-punk',
+                functionBefore: function (origin, continueTooltip) {
+                    var productId = $(this).data("product-id");
+                    // URL bạn muốn GET dữ liệu
+                    var url = 'https://localhost:7020/Home/GetItemProduct/' + productId;
+                    $.ajax({
+                        type: 'GET',
+                        url: url,
+                        dataType: 'json',
+                        success: function (data) {
+                            console.log(data);
+                            // Cập nhật nội dung của tooltipster với dữ liệu lấy được
+                            origin.tooltipster('content', 'Tên sản phẩm: ' + data.title + "<br/>" + 'Kích thước: ' + data.size);
+                            origin.data('ajax', 'cached');
+                            continueTooltip();
+                        },
+                        error: function () {
+                            console.log('Lỗi khi lấy dữ liệu từ server.');
+                        }
+                    });
 
-            // // Add a hover event to each product
-            // products.on("mouseover.one", function () {
-            //     // Get the product ID
-            //     var productId = $(this).data("product-id");
-            //    // alert("ok")
-            //     // Send an Ajax request to the server
-            //     $.ajax({
-            //         url: "https://localhost:7020/Home/GetItemProduct/" + productId,
-            //         success: function (data) {
-            //             console.log(data)
-            //             // Show the hover content
-            //             $("#myTool").tooltip({
-            //                 content: "ok các em",
-            //                 position: { my: "left+15 center", at: "right center" },
-            //                 classes: {
-            //                     "ui-tooltip": "highlight"
-            //                 },
-            //                 //  trigger: "hover",
-            //                 delay: {
-            //                     show: 500,
-            //                     hide: 500,
-            //                 },
-            //                 show: "fadeIn",
-            //                 hide: "fadeOut",
-            //             });
-            //         },
-            //     });
-            // });
+                }
+            });
         });
     </script>
 }
