@@ -21,7 +21,7 @@
                     <h6 class="card-title text-uppercase"><a asp-action="Product" asp-route-id="@item.Id" class="text-decoration-none">@item.Title</a></h6>
                     <p class="card-text d-inline text-decoration-line-through">@String.Format("{0:#,##0}" ,item.PriceOld) VNĐ</p>
                     <p style="margin-bottom: 4px">@String.Format("{0:#,##0}" ,item.PriceNew) VNĐ</p>
-                    <a asp-controller="Card" asp-action="Index" asp-route-id="@item.Id" class="card-text text-decoration-none" style="color: red">
+                    <a asp-controller="Cart" asp-action="Add" asp-route-id="@item.Id" class="card-text text-decoration-none" style="color: red">
                         <i class="bi bi-bag-check-fill"></i>
                         Mua hàng
                     </a>

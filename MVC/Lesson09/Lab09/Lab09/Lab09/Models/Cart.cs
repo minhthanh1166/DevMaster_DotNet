@@ -1,4 +1,6 @@
-﻿namespace Lab09.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Lab09.Models
 {
     public class Cart
     {

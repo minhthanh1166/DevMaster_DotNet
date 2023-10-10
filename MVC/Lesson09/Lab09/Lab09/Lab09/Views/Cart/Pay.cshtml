@@ -1,0 +1,51 @@
+﻿
+
+<div class="card">
+    <div class="card-header">
+        <h2 class="card-title">Thanh toán đơn hàng</h2>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-lg-6">
+                <img id="qrCode" src="" alt="Mã QR" class="card-img">
+            </div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title"> Tóm tắt đơn hàng </h3>
+                        <p>
+                            Phí vận chuyển: <span class="text-danger">Free Ship</span><br>
+                            <small>( Miễn phí vận chuyển với đơn hàng trên 10 triệu )</small>
+                        </p>
+
+                        <p class="card-text">
+                            Thông tin vận chuyển: Sản phẩm sẽ được Hoàng Hoan giao trong vòng
+
+                            2-7 ngày.
+                            Chi tiết liên hệ
+                            <a href="tel:0978611889">0978 611 889</a>
+                        </p>
+                        <div>
+                            <div>
+                                Tổng tiền :<span class="text-danger"> <span id="main" data-total="@ViewBag.Total">@string.Format("{0:#,##0}", @ViewBag.Total) VNĐ</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        var qrCodeImage = document.getElementById("qrCode");
+
+        var total = $("#main").attr("data-total");
+
+
+        var qrCodeUrl = `https://api.vietqr.io/image/970422-22222200199999-h6N7bFm.jpg?accountName=BUI%20MINH%20THANH&amount=${total}&addInfo=Thanh%20toan%20don%20hang%20`;
+
+        qrCodeImage.src = qrCodeUrl;
+    </script>
+}

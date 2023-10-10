@@ -9,14 +9,16 @@
                 <img src="@Model.Image" style="width: 100%; height: auto;" />
             </div>
             <div class="col-lg-7">
-                <h2 class="card-title">@Model.Title</h2>
-                <p>@Model.Size</p>
-                <p class="card-text d-inline text-decoration-line-through">@String.Format("{0:#,##0}", Model.PriceOld) VNĐ</p>
-                <p style="margin-bottom: 4px">@String.Format("{0:#,##0}", Model.PriceNew) VNĐ</p>
-                <a asp-controller="Card" asp-action="Index" asp-route-id="@Model.Id" class="card-text text-decoration-none btn btn-danger my-3">
-                    <i class="bi bi-bag-check-fill"></i>
-                    Mua hàng
-                </a>
+                <div class="p-1">
+                    <h2 class="card-title">@Model.Title</h2>
+                    <p>@Model.Size</p>
+                    <p class="card-text d-inline text-decoration-line-through">@String.Format("{0:#,##0}", Model.PriceOld) VNĐ</p>
+                    <p style="margin-bottom: 4px">@String.Format("{0:#,##0}", Model.PriceNew) VNĐ</p>
+                    <a asp-controller="Cart" asp-action="Add" asp-route-id="@Model.Id" class="card-text text-decoration-none btn btn-danger my-3">
+                        <i class="bi bi-bag-check-fill"></i>
+                        Mua hàng
+                    </a>
+                </div>
             </div>
         </div>
     </div>

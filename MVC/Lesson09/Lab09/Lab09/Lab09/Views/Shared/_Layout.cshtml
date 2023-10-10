@@ -26,9 +26,6 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Product">Product</a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -45,14 +42,9 @@
             &copy; @DateTime.Now.Year - Lab09 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
-     <script src="~/lib/jquery/dist/jquery.min.js"></script> 
-
-    @* <script src="https://code.jquery.com/jquery-3.6.0.js"></script> *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script>
-
-    @* <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script> *@
-    @* <script src="/jquery-ui/jquery-ui.js"></script> *@
-    @* <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> *@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

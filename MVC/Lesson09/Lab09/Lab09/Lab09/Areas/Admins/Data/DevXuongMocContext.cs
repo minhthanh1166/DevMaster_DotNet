@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Lab09.Models;
 
 namespace Lab09.Models;
 
@@ -751,4 +752,6 @@ public partial class DevXuongMocContext : DbContext
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+    public DbSet<Lab09.Models.Customer> Customer { get; set; } = default!;
 }
